@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Footer{
+    
+    padding: 25px;
+}
+
+.Footer-row{
+    display: flex;
+    text-align: left;
+    gap: 100px;
+}
+.Footer-row a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    line-height: 1.5;
+}
+.Footer-row span{
+    color: rgb(255, 77, 0);
+    font-size: 20px;
+}
+.payment-image{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.payment-image img{
+    flex-wrap: wrap;
+    width: 50px;
+    flex: 30%;
+    height: auto;
+    display: block;
+}
+.qr-image{
+    display: flex;
+}
+.qr-image img{
+    width: 100px;
+    height: 100px;
+}
+.Follow{
+    margin-top: 20px;
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
+.youtube{
+    color: red;
+}
+.facebook{
+    color: rgb(0, 85, 255);
+}
+.instagram{
+    color: rgb(255, 0, 251);
+}
+.twitter{
+    color: rgb(1, 158, 255);
+}
+.website{
+    color: rgb(121, 121, 121);
+}
+.CustomerCare{
+    display: block;
+}
+.Link-Help{
+    display: block;
+    flex-wrap: wrap;
+}
+.Link-Help a{
+    display: block;
+}
+.Fotter-Bottom{
+    display: flex;
+    text-align: left;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    
+    flex: 20%; 
+    
+ 
+    background: rgb(228, 228, 228);
+}
+.footer-data a{
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+}
+.footer-data{
+    
+    flex: 20%; 
+}
+.footer-data a:hover{
+    text-decoration: underline;
+}
+.footer-data h3{
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgb(93, 93, 93);
+}
+.footer-data h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Mydashboard{
+    border: 2px solid green ;
+    padding: 10px;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+.leftsidebar{
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.leftsidebar a{
+    padding: 10px 20px;
+    background: rgb(255, 106, 0);
+    border-top-right-radius: 10px;
+    color: white;
+    display: block;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    border: 2px solid transparent; /* Transparent border */
+}
+.leftsidebar a:hover{
+    background: white;
+    color:rgb(255, 106, 0); 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border:2px solid  rgb(255, 106, 0); 
+}
+.content{
+  margin-right: 200px;
+}

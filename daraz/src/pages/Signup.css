@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.account{
+    padding: 20px 200px;
+    background: rgb(229, 229, 229);
+    
+}
+.acount-name{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.acount-name span{
+    font-size: 14px;
+}
+.acount-name a{
+    text-decoration: none;
+    color: rgb(0, 214, 225);
+}
+.acount-name h2{
+    font-size: 24px;
+    color: rgb(99, 97, 97);
+}
+.account-form{
+    display: flex;
+    gap: 10px;
+    background: white;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.account-form label{
+    font-size: 14px;
+}
+.first-row{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.first-row > div{
+    margin-bottom: 20px;
+}
+.first-row label,
+.first-row input{
+    display: block;
+    padding: 5px;
+    text-align: left;
+}
+
+.first-row input{
+    width: 350px;
+}
+.second-row{
+    padding: 5px;
+    width: 350px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.second-row span{
+    font-size: 14px;
+}
+.second-row label,
+.second-row input{
+    text-align: left;
+}
+.orsignp{
+    margin-top: 10px;
+}
+.second-row button{
+    /* width: 100px; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    display: block;
+    border: none;
+}
+.signup-btn{
+    padding: 8px 135px;
+    align-items: center;
+    display: block;
+    color: white;
+    margin: 0 auto;
+    background: rgb(219, 80, 30);
+}
+.second-row input{
+    margin-bottom: 10px;
+    padding:5px ;
+}
+
+.second-row > div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+.double-btn{
+    display: flex;
+    width: auto;
+    gap: 10px;
+    margin: 0 auto; 
+
+}
+.double-btn button{
+    padding: 8px 55px;
+    color: white;
+    border-radius: 5px;
+}
+.double-btn button:nth-of-type(1){
+    background: rgb(0, 58, 138);
+}
+.double-btn button:nth-of-type(2){
+    background: rgb(228, 40, 40);
+}

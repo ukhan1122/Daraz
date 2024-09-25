@@ -1,0 +1,23 @@
+.slider {
+    margin-left: 10px;
+    width: 950px;
+    
+    height: 300px;
+ }
+
+
+.custom-slider {
+    position: relative; 
+}
+
+.carousel-item {
+    height: 100%; /* Ensure each item takes full height of .custom-slider */
+    position: relative; /* Ensure relative positioning */
+}
+
+.carousel-item img {
+    border-radius: 10px;
+    height: 100%; /* Allow images to adjust height based on aspect ratio */
+    width: 100%; /* Ensure images expand to fill the width of .carousel-item */
+    object-fit: contain; /* Fit the entire image within the carousel item without distortion */
+}

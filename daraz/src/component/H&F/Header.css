@@ -1,0 +1,260 @@
+.sticky{
+
+    position: sticky;
+    top: 0;
+    z-index: 1000 ;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fe5900;
+    border-bottom: 1px solid #ddd;
+
+    position: -webkit-sticky; 
+}
+.logo-link img {
+    width: 100px;
+    height: 40px;
+    color: black;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 5px;
+    background-color: transparent;
+    border-radius: 5px;
+   
+}
+.categories :hover{
+    border: transparent;
+
+    background: rgba(0, 0, 0, .3) !important;
+}
+.categories select{
+    appearance: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    background: transparent;
+    width: 100%;
+}
+.categories select:focus {
+    outline: none;
+    background-color:transparent;
+}
+.arrow-icon-categories{
+    position: absolute;
+    right: 0px;
+    pointer-events: none;
+    color: white;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.user-dashboard{
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+
+}
+.user-dashboard .username {
+    color: white !important;
+    text-transform: capitalize !important;
+}
+
+.user-dashboard .usermenu {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    top:120%;
+    border-radius: 5px;
+    padding: 5px;
+    right: -30px;
+    display: flex;
+    /* min-width: 80px; */
+    /* height: 40px; */
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.user-dashboard .usermenu a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 115, 0);
+    color: rgb(255, 102, 0);
+    align-items: center;
+    text-align: center;
+}
+.user-dashboard .usermenu a:hover{
+    background: rgb(255, 106, 0);
+    color: white;
+    
+}
+.arrowicon{
+    color: white;
+}
+
+
+
+
+.search-bar input {
+    padding: 8px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 700px;
+}
+.search-bar input:focus{ 
+    outline: none !important;
+    border: none !important;
+}
+
+.search-bar .search-button {
+    padding: 8px;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    /* gap: 10px;  */
+}
+.user-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+.user-button:hover{
+    background: rgba(0, 0, 0, .3) !important;
+    color: white;
+    text-decoration: none;
+}
+.signup {
+    border-left: 1px solid #ddd;
+    border-radius: none !important; 
+}
+
+
+.signup:hover{
+    background: rgba(0, 0, 0, .3) !important;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+.language-preferencess {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    color: #ffffff;
+    cursor: pointer;
+    border: transparent;
+    position: relative;
+    border-radius: 4px;
+}
+ 
+.language-box{
+    background: rgb(8, 0, 0);
+}
+.language-icon{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgb(247, 247, 247);
+    font-size: 24px; 
+}
+
+ .arrow-icon{ 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: white;
+    font-size: 24px; 
+} 
+
+    
+.language-preferencess :hover{
+    border: transparent;  
+    
+    border-radius: 5px; 
+    background: rgba(0, 0, 0, .3) !important;
+}
+
+.language-preferencess select {
+
+    appearance: none; 
+    background: transparent;
+    text-decoration: none;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    border: transparent;
+    cursor: pointer;
+    color: #ffffff;
+    width: 70px;
+    padding: 10px;
+}
+
+.language-preferencess select:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.shopping-cart{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+} 
+.cart-count{
+    position: absolute;
+    
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}

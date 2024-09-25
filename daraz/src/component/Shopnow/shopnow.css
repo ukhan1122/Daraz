@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.shopnow{
+    padding: 10px;
+}
+.shopnow img{
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+}

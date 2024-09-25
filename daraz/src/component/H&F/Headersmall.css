@@ -1,0 +1,107 @@
+.Header-small {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #fe5900;
+    padding: 1px 15px;
+  }
+  .classes{
+    justify-content: flex-start;
+    display: flex;
+    
+  }
+  .Header-small div {
+    font-size: 12px;
+  }
+  
+  .Header-small a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .Header-small a:hover {
+    text-decoration: underline;
+  }
+  
+  .Seller-class {
+    margin-right: 15px;
+  }
+  
+  .affiliate-class {
+    margin-right: 15px;
+  }
+  
+  .help-class {
+    margin-right: 15px;
+  }
+  
+  .partner-class {
+    margin-right: 15px;
+  }
+
+  .logo-link-app{
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -10px;
+    margin-right: 20px;   
+    background: rgba(0, 0, 0, .3) !important;
+    
+  }
+  .app-logo {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    position: relative;
+    cursor: pointer;
+  }
+  .showmore{
+    position: absolute;
+    background: white;
+    width: 300px;
+    height: 400px;
+    top: 48px;
+    right: 30px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+    transition: visibility 0s, opacity 0.3s linear; 
+  }
+  .appimage{
+  }
+  .appimage img{
+    width: 300px  !important;
+    height: 200px !important;
+  }
+  .appcode{
+    display: flex;
+  }
+  .showmore span{
+    font-size: 15px;
+    margin-top: 10px !important;
+    padding-top: 10px !important;
+    color: red;
+  }
+  .appcode img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .app-logo:hover .showmore{
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 0 0 0 2px rgba(203, 203, 203, 0.2);
+  }
+  .app-logo img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  .app-logo a:hover {
+    text-decoration: underline;
+  }
+ 

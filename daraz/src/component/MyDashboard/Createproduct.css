@@ -1,0 +1,90 @@
+.Createproduct {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.Createproduct form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Createproduct .input-data {
+       /* display: flex; */
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5px;
+}
+
+.Createproduct .input-data > div {
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+} 
+
+.Createproduct label {
+    font-weight: 600;
+    margin-right: 15px;
+    color: #444;
+    min-width: 150px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.Createproduct input[type="text"],
+.Createproduct input[type="number"],
+.Createproduct input[type="file"],
+.Createproduct select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.Createproduct input[type="text"]:focus,
+.Createproduct input[type="number"]:focus,
+.Createproduct input[type="file"]:focus,
+.Createproduct select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.Createproduct input[type="checkbox"] {
+    margin-top: 10px;
+    transform: scale(1.2);
+}
+
+.Createproduct button {
+    padding: 14px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6f00;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Createproduct button:hover {
+    background-color: #e65a00;
+    transform: scale(1.05);
+}
+
+.Createproduct button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 111, 0, 0.5);
+}
+

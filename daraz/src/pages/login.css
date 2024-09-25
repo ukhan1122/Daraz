@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    margin: 0 auto;
+    padding: 10px 127px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(219, 80, 30);
+}
+.double-btn-facebook{
+    margin: 0 auto;
+    color: white;
+    padding: 10px 113px;
+    margin-top: 5px;
+    background: rgb(0, 58, 138);
+    border-radius: 5px;
+}
+.double-btn-google{
+    margin: 0 auto;
+    margin-top: 5px;
+    color: white;
+    padding: 10px 120px;
+    border-radius: 5px;
+    background: rgb(228, 40, 40);
+}
+.orlogin{
+    margin-left: 25px;
+}
